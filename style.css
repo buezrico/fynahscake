@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fbe4f1;
+  color: white;
+  font-family: "karla", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+header {
+  background-color: #f87cc4;
+  padding: 0.8rem 5rem;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-btn {
+  background: transparent;
+  border: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+}
+
+.navbar .active {
+  border-bottom: 2px solid white;
+}
+
+.navbar-icon {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+}
+
+main {
+  font-family: "karla", sans-serif;
+  color: black;
+  height: 90vh;
+}
+.main-section-content {
+  margin: 0.8rem 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-section-left {
+  width: 48%;
+}
+.main-section-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48%;
+}
+
+.main-section-left p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  letter-spacing: 0.2em;
+  line-height: 1.5;
+  color: #101813;
+}
+.main-section-left h4 {
+  margin-bottom: 1rem;
+
+  font-size: 3rem;
+}
+
+.main-section-left button {
+  color: white;
+  background: #eb008a;
+  height: 3rem;
+  width: 9rem;
+  border: none;
+}
+
+.main-section-right img {
+  height: 100%;
+  width: 100%;
+  max-width: 30rem;
+}
+
+.carousel-control-prev-icon {
+  color: GREEN !important;
+}
