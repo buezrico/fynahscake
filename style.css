@@ -55,6 +55,7 @@ header {
 
 main {
   font-family: "karla", sans-serif;
+  margin-top: 3rem;
   color: black;
   height: 90vh;
 }
